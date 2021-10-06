@@ -15,8 +15,8 @@ class TimeStream:
 
     def __init__(
         self,
-        database=settings.TIMESTREAM_DATABASE_TEST,
-        table=settings.TIMESTREAM_TABLE_TEST,
+        database=settings.TIMESTREAM_DATABASE,
+        table=settings.TIMESTREAM_TABLE,
     ):
         self.database = database
         self.table = table
